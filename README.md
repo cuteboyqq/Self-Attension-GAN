@@ -8,14 +8,7 @@ Self-attentions are applied to later two layers of both discriminator and genera
 
 <p align="center"><img width="100%" src="image/main_model.PNG" /></p>
 
-## Current update status
-* [ ] Supervised setting
-* [ ] Tensorboard loggings
-* [x] **[20180608] updated the self-attention module. Thanks to my colleague [Cheonbok Park](https://github.com/cheonbok94)! see 'sagan_models.py' for the update. Should be efficient, and run on large sized images**
-* [x] Attention visualization (LSUN Church-outdoor)
-* [x] Unsupervised setting (use no label yet) 
-* [x] Applied: [Spectral Normalization](https://arxiv.org/abs/1802.05957), code from [here](https://github.com/christiancosgrove/pytorch-spectral-normalization-gan)
-* [x] Implemented: self-attention module, two-timescale update rule (TTUR), wgan-hinge loss, wgan-gp loss
+
 
 &nbsp;
 &nbsp;
