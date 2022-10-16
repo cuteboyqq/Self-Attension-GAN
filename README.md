@@ -8,22 +8,8 @@ Self-attentions are applied to later two layers of both discriminator and genera
 
 <p align="center"><img width="100%" src="image/main_model.PNG" /></p>
 
-
-
 &nbsp;
 &nbsp;
-
-## Results
-
-### Attention result on LSUN (epoch #8)
-<p align="center"><img width="100%" src="image/sagan_attn.png" /></p>
-Per-pixel attention result of SAGAN on LSUN church-outdoor dataset. It shows that unsupervised training of self-attention module still works, although it is not interpretable with the attention map itself. Better results with regard to the generated images will be added. These are the visualization of self-attention in generator layer3 and layer4, which are in the size of 16 x 16 and 32 x 32 respectively, each for 64 images. To visualize the per-pixel attentions, only a number of pixels are chosen, as shown on the leftmost and the rightmost numbers indicate. 
-
-### CelebA dataset (epoch on the left, still under training)
-<p align="center"><img width="80%" src="image/sagan_celeb.png" /></p>
-
-### LSUN church-outdoor dataset (epoch on the left, still under training)
-<p align="center"><img width="70%" src="image/sagan_lsun.png" /></p>
 
 ## Prerequisites
 * [Python 3.5+](https://www.continuum.io/downloads)
